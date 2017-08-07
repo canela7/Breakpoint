@@ -15,6 +15,12 @@
 		DA4FA9381F37B2100092DEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9371F37B2100092DEFA /* Assets.xcassets */; };
 		DA4FA93B1F37B2100092DEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9391F37B2100092DEFA /* LaunchScreen.storyboard */; };
 		DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9481F380BB80092DEFA /* DataService.swift */; };
+		DA4FA94B1F38396E0092DEFA /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA94A1F38396E0092DEFA /* AuthVC.swift */; };
+		DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA94C1F3839A40092DEFA /* LoginVC.swift */; };
+		DA4FA94F1F3839FE0092DEFA /* InsertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA94E1F3839FE0092DEFA /* InsertTextField.swift */; };
+		DAA0BD6D1F38FE9D00B1FCC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */; };
+		DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */; };
+		DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD701F3921F700B1FCC1 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +34,13 @@
 		DA4FA9371F37B2100092DEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4FA93A1F37B2100092DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4FA93C1F37B2100092DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA4FA9461F37CFCA0092DEFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA4FA9481F380BB80092DEFA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DA4FA94A1F38396E0092DEFA /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		DA4FA94C1F3839A40092DEFA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DA4FA94E1F3839FE0092DEFA /* InsertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTextField.swift; sourceTree = "<group>"; };
+		DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		DAA0BD701F3921F700B1FCC1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E299260ACD86CA445A0BFADA /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,13 +100,11 @@
 				DA4FA9431F37CB860092DEFA /* View */,
 				DA4FA9421F37CB7F0092DEFA /* Controller */,
 				DA4FA92E1F37B2100092DEFA /* AppDelegate.swift */,
-				DA4FA9301F37B2100092DEFA /* FirstViewController.swift */,
-				DA4FA9321F37B2100092DEFA /* SecondViewController.swift */,
 				DA4FA9341F37B2100092DEFA /* Main.storyboard */,
 				DA4FA9371F37B2100092DEFA /* Assets.xcassets */,
 				DA4FA9391F37B2100092DEFA /* LaunchScreen.storyboard */,
 				DA4FA93C1F37B2100092DEFA /* Info.plist */,
-				DA4FA9461F37CFCA0092DEFA /* GoogleService-Info.plist */,
+				DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */,
 			);
 			path = Breakpoint;
 			sourceTree = "<group>";
@@ -103,6 +112,10 @@
 		DA4FA9421F37CB7F0092DEFA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA4FA9301F37B2100092DEFA /* FirstViewController.swift */,
+				DA4FA9321F37B2100092DEFA /* SecondViewController.swift */,
+				DA4FA94A1F38396E0092DEFA /* AuthVC.swift */,
+				DA4FA94C1F3839A40092DEFA /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +123,8 @@
 		DA4FA9431F37CB860092DEFA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DA4FA94E1F3839FE0092DEFA /* InsertTextField.swift */,
+				DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				DA4FA9481F380BB80092DEFA /* DataService.swift */,
+				DAA0BD701F3921F700B1FCC1 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -197,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA0BD6D1F38FE9D00B1FCC1 /* GoogleService-Info.plist in Resources */,
 				DA4FA93B1F37B2100092DEFA /* LaunchScreen.storyboard in Resources */,
 				DA4FA9381F37B2100092DEFA /* Assets.xcassets in Resources */,
 				DA4FA9361F37B2100092DEFA /* Main.storyboard in Resources */,
@@ -258,7 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4FA94F1F3839FE0092DEFA /* InsertTextField.swift in Sources */,
+				DA4FA94B1F38396E0092DEFA /* AuthVC.swift in Sources */,
 				DA4FA9331F37B2100092DEFA /* SecondViewController.swift in Sources */,
+				DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */,
+				DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */,
+				DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */,
 				DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */,
 				DA4FA9311F37B2100092DEFA /* FirstViewController.swift in Sources */,
 				DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */,
