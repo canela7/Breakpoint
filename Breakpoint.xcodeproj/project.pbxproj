@@ -14,6 +14,7 @@
 		DA4FA9361F37B2100092DEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9341F37B2100092DEFA /* Main.storyboard */; };
 		DA4FA9381F37B2100092DEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9371F37B2100092DEFA /* Assets.xcassets */; };
 		DA4FA93B1F37B2100092DEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9391F37B2100092DEFA /* LaunchScreen.storyboard */; };
+		DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9481F380BB80092DEFA /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DA4FA93A1F37B2100092DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA4FA93C1F37B2100092DEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA4FA9461F37CFCA0092DEFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA4FA9481F380BB80092DEFA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E299260ACD86CA445A0BFADA /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		DA4FA92D1F37B2100092DEFA /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				DA4FA9471F380BA20092DEFA /* Services */,
 				DA4FA9451F37CBA90092DEFA /* Extensions */,
 				DA4FA9441F37CB8B0092DEFA /* Model */,
 				DA4FA9431F37CB860092DEFA /* View */,
@@ -123,6 +126,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA4FA9471F380BA20092DEFA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DA4FA9481F380BB80092DEFA /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				DA4FA9331F37B2100092DEFA /* SecondViewController.swift in Sources */,
 				DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */,
 				DA4FA9311F37B2100092DEFA /* FirstViewController.swift in Sources */,
+				DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
