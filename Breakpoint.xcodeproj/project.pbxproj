@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		9AFDF020CF7E59D6AC957A70 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44848667F6A3B9350F03223A /* Pods_Breakpoint.framework */; };
 		DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA92E1F37B2100092DEFA /* AppDelegate.swift */; };
-		DA4FA9311F37B2100092DEFA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9301F37B2100092DEFA /* FirstViewController.swift */; };
-		DA4FA9331F37B2100092DEFA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9321F37B2100092DEFA /* SecondViewController.swift */; };
+		DA4FA9311F37B2100092DEFA /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9301F37B2100092DEFA /* FeedVC.swift */; };
+		DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9321F37B2100092DEFA /* GroupsVC.swift */; };
 		DA4FA9361F37B2100092DEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9341F37B2100092DEFA /* Main.storyboard */; };
 		DA4FA9381F37B2100092DEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9371F37B2100092DEFA /* Assets.xcassets */; };
 		DA4FA93B1F37B2100092DEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4FA9391F37B2100092DEFA /* LaunchScreen.storyboard */; };
@@ -28,8 +28,8 @@
 		C2670CF05788DE0587E5F9C7 /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		DA4FA92B1F37B2100092DEFA /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4FA92E1F37B2100092DEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA4FA9301F37B2100092DEFA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DA4FA9321F37B2100092DEFA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DA4FA9301F37B2100092DEFA /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DA4FA9321F37B2100092DEFA /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		DA4FA9351F37B2100092DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA4FA9371F37B2100092DEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA4FA93A1F37B2100092DEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		DA4FA9421F37CB7F0092DEFA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA4FA9301F37B2100092DEFA /* FirstViewController.swift */,
-				DA4FA9321F37B2100092DEFA /* SecondViewController.swift */,
+				DA4FA9301F37B2100092DEFA /* FeedVC.swift */,
+				DA4FA9321F37B2100092DEFA /* GroupsVC.swift */,
 				DA4FA94A1F38396E0092DEFA /* AuthVC.swift */,
 				DA4FA94C1F3839A40092DEFA /* LoginVC.swift */,
 			);
@@ -277,12 +277,12 @@
 			files = (
 				DA4FA94F1F3839FE0092DEFA /* InsertTextField.swift in Sources */,
 				DA4FA94B1F38396E0092DEFA /* AuthVC.swift in Sources */,
-				DA4FA9331F37B2100092DEFA /* SecondViewController.swift in Sources */,
+				DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */,
 				DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */,
 				DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */,
 				DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */,
 				DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */,
-				DA4FA9311F37B2100092DEFA /* FirstViewController.swift in Sources */,
+				DA4FA9311F37B2100092DEFA /* FeedVC.swift in Sources */,
 				DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
