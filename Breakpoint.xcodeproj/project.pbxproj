@@ -21,6 +21,7 @@
 		DAA0BD6D1F38FE9D00B1FCC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */; };
 		DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */; };
 		DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD701F3921F700B1FCC1 /* AuthService.swift */; };
+		DAEE62361F3A8ADC00A289A8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62351F3A8ADC00A289A8 /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		DAA0BD701F3921F700B1FCC1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		DAEE62351F3A8ADC00A289A8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		E299260ACD86CA445A0BFADA /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 				DA4FA9321F37B2100092DEFA /* GroupsVC.swift */,
 				DA4FA94A1F38396E0092DEFA /* AuthVC.swift */,
 				DA4FA94C1F3839A40092DEFA /* LoginVC.swift */,
+				DAEE62351F3A8ADC00A289A8 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEE62361F3A8ADC00A289A8 /* MeVC.swift in Sources */,
 				DA4FA94F1F3839FE0092DEFA /* InsertTextField.swift in Sources */,
 				DA4FA94B1F38396E0092DEFA /* AuthVC.swift in Sources */,
 				DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */,
