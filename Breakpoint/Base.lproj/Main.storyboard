@@ -35,6 +35,9 @@
                                             <constraint firstAttribute="height" constant="30" id="pyl-mU-S4C"/>
                                         </constraints>
                                         <state key="normal" image="compose"/>
+                                        <connections>
+                                            <segue destination="qmq-Yx-L9i" kind="presentation" id="blk-Cn-s7m"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abg-eg-o72">
                                         <rect key="frame" x="160.5" y="35" width="54.5" height="21"/>
@@ -161,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="410"/>
         </scene>
-        <!--View Controller-->
+        <!--Create PostVC-->
         <scene sceneID="gnT-3A-EkC">
             <objects>
-                <viewController id="qmq-Yx-L9i" sceneMemberID="viewController">
+                <viewController id="qmq-Yx-L9i" customClass="CreatePostVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5su-vw-FER">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,6 +192,9 @@
                                             <constraint firstAttribute="height" constant="30" id="oWT-7j-uFz"/>
                                         </constraints>
                                         <state key="normal" image="close"/>
+                                        <connections>
+                                            <action selector="closeBtnWasPressed:" destination="qmq-Yx-L9i" eventType="touchUpInside" id="QTj-09-Tzf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -233,6 +239,9 @@
                                 <state key="normal" title=" SEND" image="send">
                                     <color key="titleColor" red="0.30214685201644897" green="0.74723225831985474" blue="0.33267867565155029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendBtnWasPressed:" destination="qmq-Yx-L9i" eventType="touchUpInside" id="ySB-8c-Hvi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25428047776222229" green="0.26978936791419983" blue="0.31546109914779663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -255,6 +264,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gdI-xU-83F"/>
                     </view>
+                    <connections>
+                        <outlet property="emailLbl" destination="ykS-Ld-hwt" id="HZ0-kp-UNV"/>
+                        <outlet property="profileImage" destination="NFT-Vn-Fzy" id="Dct-6n-ZLG"/>
+                        <outlet property="sendBtn" destination="IWp-oJ-npF" id="Nv9-vK-UlF"/>
+                        <outlet property="textView" destination="EET-Ac-fVh" id="mBw-vr-qVW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HQe-HR-IF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
