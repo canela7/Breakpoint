@@ -24,6 +24,8 @@
 		DAEE62361F3A8ADC00A289A8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62351F3A8ADC00A289A8 /* MeVC.swift */; };
 		DAEE62381F3A9D0800A289A8 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62371F3A9D0800A289A8 /* CreatePostVC.swift */; };
 		DAEE623A1F3AC5AD00A289A8 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */; };
+		DAEE623C1F3B734400A289A8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE623B1F3B734400A289A8 /* Message.swift */; };
+		DAEE623E1F3B877100A289A8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE623D1F3B877100A289A8 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		DAEE62351F3A8ADC00A289A8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		DAEE62371F3A9D0800A289A8 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		DAEE623B1F3B734400A289A8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DAEE623D1F3B877100A289A8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		E299260ACD86CA445A0BFADA /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +137,7 @@
 			children = (
 				DA4FA94E1F3839FE0092DEFA /* InsertTextField.swift */,
 				DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */,
+				DAEE623D1F3B877100A289A8 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 		DA4FA9441F37CB8B0092DEFA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DAEE623B1F3B734400A289A8 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,8 +297,10 @@
 				DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */,
 				DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */,
 				DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */,
+				DAEE623E1F3B877100A289A8 /* FeedCell.swift in Sources */,
 				DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */,
 				DAEE62381F3A9D0800A289A8 /* CreatePostVC.swift in Sources */,
+				DAEE623C1F3B734400A289A8 /* Message.swift in Sources */,
 				DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */,
 				DA4FA9311F37B2100092DEFA /* FeedVC.swift in Sources */,
 				DA4FA9491F380BB80092DEFA /* DataService.swift in Sources */,
