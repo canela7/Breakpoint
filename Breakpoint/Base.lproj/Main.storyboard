@@ -206,7 +206,7 @@
                                     <constraint firstItem="UIO-m6-02V" firstAttribute="centerY" secondItem="JKw-Kz-o7v" secondAttribute="centerY" id="tpy-fe-oWj"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-Vn-Fzy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-Vn-Fzy">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="JYf-NA-icx"/>

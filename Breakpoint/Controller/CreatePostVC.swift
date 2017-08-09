@@ -21,7 +21,9 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
         
         textView.delegate = self
-        // Do any additional setup after loading the view.
+        
+        //this will change the send btn slide up with the keyboard
+        sendBtn.bindToKeyboard()
     }
 
     @IBAction func sendBtnWasPressed(_ sender: Any) {
