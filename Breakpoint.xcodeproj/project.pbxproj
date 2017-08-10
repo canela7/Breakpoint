@@ -26,6 +26,7 @@
 		DAEE623A1F3AC5AD00A289A8 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */; };
 		DAEE623C1F3B734400A289A8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE623B1F3B734400A289A8 /* Message.swift */; };
 		DAEE623E1F3B877100A289A8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE623D1F3B877100A289A8 /* FeedCell.swift */; };
+		DAEE62401F3BDAF600A289A8 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE623F1F3BDAF600A289A8 /* CreateGroupsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		DAEE623B1F3B734400A289A8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		DAEE623D1F3B877100A289A8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		DAEE623F1F3BDAF600A289A8 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		E299260ACD86CA445A0BFADA /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				DA4FA94C1F3839A40092DEFA /* LoginVC.swift */,
 				DAEE62351F3A8ADC00A289A8 /* MeVC.swift */,
 				DAEE62371F3A9D0800A289A8 /* CreatePostVC.swift */,
+				DAEE623F1F3BDAF600A289A8 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */,
 				DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */,
 				DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */,
+				DAEE62401F3BDAF600A289A8 /* CreateGroupsVC.swift in Sources */,
 				DAEE623E1F3B877100A289A8 /* FeedCell.swift in Sources */,
 				DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */,
 				DAEE62381F3A9D0800A289A8 /* CreatePostVC.swift in Sources */,
