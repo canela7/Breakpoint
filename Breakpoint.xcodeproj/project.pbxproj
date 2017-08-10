@@ -21,6 +21,7 @@
 		DAA0BD6D1F38FE9D00B1FCC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */; };
 		DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */; };
 		DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA0BD701F3921F700B1FCC1 /* AuthService.swift */; };
+		DACB21081F3C232A00C02168 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB21071F3C232A00C02168 /* UserCell.swift */; };
 		DAEE62361F3A8ADC00A289A8 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62351F3A8ADC00A289A8 /* MeVC.swift */; };
 		DAEE62381F3A9D0800A289A8 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62371F3A9D0800A289A8 /* CreatePostVC.swift */; };
 		DAEE623A1F3AC5AD00A289A8 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */; };
@@ -47,6 +48,7 @@
 		DAA0BD6C1F38F3DE00B1FCC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		DAA0BD701F3921F700B1FCC1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		DACB21071F3C232A00C02168 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		DAEE62351F3A8ADC00A289A8 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		DAEE62371F3A9D0800A289A8 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				DA4FA94E1F3839FE0092DEFA /* InsertTextField.swift */,
 				DAA0BD6E1F39164000B1FCC1 /* ShadowView.swift */,
 				DAEE623D1F3B877100A289A8 /* FeedCell.swift */,
+				DACB21071F3C232A00C02168 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				DAA0BD711F3921F700B1FCC1 /* AuthService.swift in Sources */,
 				DA4FA94D1F3839A40092DEFA /* LoginVC.swift in Sources */,
 				DAEE62401F3BDAF600A289A8 /* CreateGroupsVC.swift in Sources */,
+				DACB21081F3C232A00C02168 /* UserCell.swift in Sources */,
 				DAEE623E1F3B877100A289A8 /* FeedCell.swift in Sources */,
 				DAA0BD6F1F39164000B1FCC1 /* ShadowView.swift in Sources */,
 				DAEE62381F3A9D0800A289A8 /* CreatePostVC.swift in Sources */,
