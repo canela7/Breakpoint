@@ -75,17 +75,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="V0z-GL-gmX">
-                                                    <rect key="frame" x="0.0" y="18" width="50" height="50"/>
+                                                    <rect key="frame" x="18" y="18" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="GE5-dC-HTA"/>
                                                         <constraint firstAttribute="height" constant="50" id="ayQ-DL-xJh"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ2-NF-Mx8">
-                                                    <rect key="frame" x="0.0" y="18" width="0.0" height="63.5"/>
+                                                    <rect key="frame" x="78" y="18" width="279" height="63.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-5r-Ghh">
-                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="20"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="279" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="bRQ-er-ZJj"/>
                                                             </constraints>
@@ -94,7 +94,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Up5-3G-38R">
-                                                            <rect key="frame" x="0.0" y="35" width="0.0" height="28.5"/>
+                                                            <rect key="frame" x="0.0" y="35" width="279" height="28.5"/>
                                                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
                                                             <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -530,7 +530,7 @@
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD People to your group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="949-PY-bkj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD People to your group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="949-PY-bkj">
                                         <rect key="frame" x="0.0" y="119" width="326" height="20"/>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                         <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -616,7 +616,7 @@
                     </view>
                     <connections>
                         <outlet property="descriptionTextField" destination="2tC-36-WS3" id="4wu-xl-7Ov"/>
-                        <outlet property="dontBtn" destination="8VY-y5-2uR" id="yb0-qb-T1T"/>
+                        <outlet property="doneBtn" destination="8VY-y5-2uR" id="yb0-qb-T1T"/>
                         <outlet property="emailSearchTextField" destination="IrC-Kh-J3u" id="ORi-YR-WRF"/>
                         <outlet property="groupMemberLbl" destination="949-PY-bkj" id="QdU-GF-ASr"/>
                         <outlet property="tableView" destination="8vv-he-bm9" id="yfh-SV-2pF"/>
@@ -781,7 +781,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJM-8g-5yw">
-                                <rect key="frame" x="147" y="258" width="80" height="33"/>
+                                <rect key="frame" x="147.5" y="258" width="80" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="pEC-3j-8tT"/>
                                 </constraints>
