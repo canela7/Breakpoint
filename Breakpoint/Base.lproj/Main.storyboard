@@ -17,6 +17,7 @@
             <string>HelveticaNeue-Bold</string>
         </array>
         <array key="Menlo.ttc">
+            <string>Menlo-Bold</string>
             <string>Menlo-Regular</string>
         </array>
     </customFonts>
@@ -188,13 +189,51 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="cXd-LT-QAu">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupCell" rowHeight="100" id="cXd-LT-QAu" customClass="GroupCell" customModule="Breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cXd-LT-QAu" id="Pex-EG-Ba8">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQm-Zh-JYS">
+                                                    <rect key="frame" x="16" y="16" width="343" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                                    <color key="textColor" red="0.015263079665601254" green="0.54049652814865112" blue="0.62889558076858521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvs-Ej-9L9">
+                                                    <rect key="frame" x="16" y="44" width="343" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                                    <color key="textColor" red="0.015263079665601254" green="0.54049652814865112" blue="0.62889558076858521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ members." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tef-P4-6iN">
+                                                    <rect key="frame" x="15" y="72" width="352" height="20"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                                    <color key="textColor" red="0.015263079665601254" green="0.54049652814865112" blue="0.62889558076858521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wvs-Ej-9L9" firstAttribute="leading" secondItem="Pex-EG-Ba8" secondAttribute="leadingMargin" constant="8" id="7Wt-ay-sAP"/>
+                                                <constraint firstItem="tef-P4-6iN" firstAttribute="top" secondItem="wvs-Ej-9L9" secondAttribute="bottom" constant="8" id="FWS-wN-oky"/>
+                                                <constraint firstAttribute="trailing" secondItem="tef-P4-6iN" secondAttribute="trailing" constant="8" id="djd-IG-R46"/>
+                                                <constraint firstItem="tef-P4-6iN" firstAttribute="leading" secondItem="Pex-EG-Ba8" secondAttribute="leading" constant="15" id="dlL-S7-7Fp"/>
+                                                <constraint firstItem="pQm-Zh-JYS" firstAttribute="top" secondItem="Pex-EG-Ba8" secondAttribute="topMargin" constant="8" id="hht-Wb-pcF"/>
+                                                <constraint firstItem="pQm-Zh-JYS" firstAttribute="leading" secondItem="Pex-EG-Ba8" secondAttribute="leadingMargin" constant="8" id="jH8-MB-6VH"/>
+                                                <constraint firstItem="wvs-Ej-9L9" firstAttribute="top" secondItem="pQm-Zh-JYS" secondAttribute="bottom" constant="8" id="kG7-UO-go6"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="pQm-Zh-JYS" secondAttribute="trailing" constant="8" id="vuu-Da-5QY"/>
+                                                <constraint firstAttribute="bottom" secondItem="tef-P4-6iN" secondAttribute="bottom" constant="8" id="xh6-bU-bn2"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wvs-Ej-9L9" secondAttribute="trailing" constant="8" id="zjb-Zf-TjM"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.18774217367172241" green="0.19925016164779663" blue="0.24075335264205933" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="groupDescLbl" destination="wvs-Ej-9L9" id="hAR-3X-Db2"/>
+                                            <outlet property="groupTitleLbl" destination="pQm-Zh-JYS" id="7Nu-bE-ZHY"/>
+                                            <outlet property="memberCountLbl" destination="tef-P4-6iN" id="PZo-E2-CiD"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -212,6 +251,9 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Groups" image="groups-tabIcon" selectedImage="groups-tabIcon" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="groupsTableView" destination="eX6-9m-dDX" id="gG1-g5-Tac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
