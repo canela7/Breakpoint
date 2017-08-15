@@ -76,17 +76,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="V0z-GL-gmX">
-                                                    <rect key="frame" x="18" y="18" width="50" height="50"/>
+                                                    <rect key="frame" x="0.0" y="18" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="GE5-dC-HTA"/>
                                                         <constraint firstAttribute="height" constant="50" id="ayQ-DL-xJh"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ2-NF-Mx8">
-                                                    <rect key="frame" x="78" y="18" width="279" height="63.5"/>
+                                                    <rect key="frame" x="0.0" y="18" width="0.0" height="63.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-5r-Ghh">
-                                                            <rect key="frame" x="0.0" y="0.0" width="279" height="20"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="bRQ-er-ZJj"/>
                                                             </constraints>
@@ -94,8 +94,8 @@
                                                             <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Up5-3G-38R">
-                                                            <rect key="frame" x="0.0" y="35" width="279" height="28.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Up5-3G-38R">
+                                                            <rect key="frame" x="0.0" y="35" width="0.0" height="28.5"/>
                                                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
                                                             <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -482,6 +482,172 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkd-67-XPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1615" y="0.0"/>
+        </scene>
+        <!--Group FeedVC-->
+        <scene sceneID="7bh-sQ-ukL">
+            <objects>
+                <viewController id="pE7-xa-FS4" customClass="GroupFeedVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WHl-mK-VEw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f01-XH-CjO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_grouptitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdf-iQ-pbr">
+                                        <rect key="frame" x="88" y="37" width="200" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Wac-zt-RF4"/>
+                                            <constraint firstAttribute="height" constant="21" id="YpY-0y-syg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0u-x7-TcJ">
+                                        <rect key="frame" x="20" y="36.5" width="12" height="22"/>
+                                        <state key="normal" image="backIcon"/>
+                                        <connections>
+                                            <action selector="backBtnWasPressed:" destination="pE7-xa-FS4" eventType="touchUpInside" id="EPs-95-pQj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5XN-Py-GQb"/>
+                                    <constraint firstItem="rdf-iQ-pbr" firstAttribute="centerY" secondItem="x0u-x7-TcJ" secondAttribute="centerY" id="bJO-Oo-bsf"/>
+                                    <constraint firstItem="rdf-iQ-pbr" firstAttribute="centerX" secondItem="f01-XH-CjO" secondAttribute="centerX" id="ghN-LV-zpU"/>
+                                    <constraint firstItem="x0u-x7-TcJ" firstAttribute="leading" secondItem="f01-XH-CjO" secondAttribute="leading" constant="20" id="rIS-rO-jhO"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-Mo-dWX">
+                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="kOe-tp-Shm" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kOe-tp-Shm" id="2yS-5F-n6t">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="byd-3w-28z">
+                                                    <rect key="frame" x="0.0" y="18" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="cod-15-sQt"/>
+                                                        <constraint firstAttribute="height" constant="50" id="kbq-eg-jKp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Y9L-t1-eaI">
+                                                    <rect key="frame" x="0.0" y="18" width="0.0" height="63.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Niq-oR-Veq">
+                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20" id="UIi-i3-yWP"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="SZp-DO-MWi">
+                                                            <rect key="frame" x="0.0" y="36" width="0.0" height="27.5"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Y9L-t1-eaI" firstAttribute="top" secondItem="2yS-5F-n6t" secondAttribute="topMargin" constant="10" id="1fB-3l-e55"/>
+                                                <constraint firstItem="byd-3w-28z" firstAttribute="top" secondItem="2yS-5F-n6t" secondAttribute="topMargin" constant="10" id="Hrs-1K-XXn"/>
+                                                <constraint firstItem="Y9L-t1-eaI" firstAttribute="leading" secondItem="byd-3w-28z" secondAttribute="trailing" constant="10" id="JR4-CQ-0tP"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Y9L-t1-eaI" secondAttribute="bottom" constant="10" id="VO6-GX-Mv8"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Y9L-t1-eaI" secondAttribute="trailing" constant="10" id="dgv-pi-w70"/>
+                                                <constraint firstItem="byd-3w-28z" firstAttribute="leading" secondItem="2yS-5F-n6t" secondAttribute="leadingMargin" constant="10" id="vO1-fJ-5rw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="contentLbl" destination="SZp-DO-MWi" id="K4c-hP-d0W"/>
+                                            <outlet property="emailLbl" destination="Niq-oR-Veq" id="Ub4-df-76V"/>
+                                            <outlet property="profileImage" destination="byd-3w-28z" id="88O-e2-kyO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com,  brian canela d ma da" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="p8q-9S-ids">
+                                <rect key="frame" x="20" y="78" width="335" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loX-Sa-7s1">
+                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="send a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-5u-4qE" customClass="InsertTextField" customModule="Breakpoint" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="15" width="307" height="30"/>
+                                        <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ3-1x-3R0">
+                                        <rect key="frame" x="330" y="15" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="kN7-BU-lTW"/>
+                                            <constraint firstAttribute="width" constant="30" id="qec-6V-bld"/>
+                                        </constraints>
+                                        <state key="normal" image="send"/>
+                                        <connections>
+                                            <action selector="sendBtnPressed:" destination="pE7-xa-FS4" eventType="touchUpInside" id="oRA-Wm-bkN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21125650405883789" green="0.222699373960495" blue="0.26834654808044434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1Cg-Hg-eBP"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZZ3-1x-3R0" secondAttribute="bottom" constant="15" id="GV8-TG-KMs"/>
+                                    <constraint firstItem="ZZ3-1x-3R0" firstAttribute="top" secondItem="loX-Sa-7s1" secondAttribute="top" constant="15" id="TaM-ZF-VWj"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZZ3-1x-3R0" secondAttribute="trailing" constant="15" id="ibY-qm-vQi"/>
+                                    <constraint firstAttribute="bottom" secondItem="O9o-5u-4qE" secondAttribute="bottom" constant="15" id="lpO-dh-xVe"/>
+                                    <constraint firstItem="O9o-5u-4qE" firstAttribute="leading" secondItem="loX-Sa-7s1" secondAttribute="leading" constant="15" id="sy2-gZ-Hn8"/>
+                                    <constraint firstItem="O9o-5u-4qE" firstAttribute="top" secondItem="loX-Sa-7s1" secondAttribute="top" constant="15" id="x43-Dl-dhQ"/>
+                                    <constraint firstItem="ZZ3-1x-3R0" firstAttribute="leading" secondItem="O9o-5u-4qE" secondAttribute="trailing" constant="8" id="xzM-SN-6Q3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ycy-Mo-dWX" firstAttribute="top" secondItem="p8q-9S-ids" secondAttribute="bottom" constant="8" id="124-oX-PmI"/>
+                            <constraint firstItem="loX-Sa-7s1" firstAttribute="bottom" secondItem="1jM-aJ-ed3" secondAttribute="bottom" id="690-AW-yEJ"/>
+                            <constraint firstItem="Ycy-Mo-dWX" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="7hm-JK-3jY"/>
+                            <constraint firstItem="f01-XH-CjO" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="Bf8-gd-dJK"/>
+                            <constraint firstItem="loX-Sa-7s1" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="GyH-2d-8Ua"/>
+                            <constraint firstItem="Ycy-Mo-dWX" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="JXQ-ku-UG2"/>
+                            <constraint firstItem="loX-Sa-7s1" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="PVD-sm-lMb"/>
+                            <constraint firstItem="f01-XH-CjO" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="Tyf-pZ-4xL"/>
+                            <constraint firstItem="p8q-9S-ids" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" constant="20" id="Wrj-4k-YSI"/>
+                            <constraint firstItem="p8q-9S-ids" firstAttribute="top" secondItem="f01-XH-CjO" secondAttribute="bottom" constant="8" id="Xcq-U8-bob"/>
+                            <constraint firstItem="1jM-aJ-ed3" firstAttribute="trailing" secondItem="p8q-9S-ids" secondAttribute="trailing" constant="20" id="Ys9-nA-ePj"/>
+                            <constraint firstItem="1jM-aJ-ed3" firstAttribute="bottom" secondItem="Ycy-Mo-dWX" secondAttribute="bottom" id="hit-4f-pH5"/>
+                            <constraint firstItem="f01-XH-CjO" firstAttribute="top" secondItem="WHl-mK-VEw" secondAttribute="top" id="r1L-y0-mJd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1jM-aJ-ed3"/>
+                    </view>
+                    <connections>
+                        <outlet property="groupTitleLbl" destination="rdf-iQ-pbr" id="68Q-XU-GzF"/>
+                        <outlet property="membersLbl" destination="p8q-9S-ids" id="Kgq-eH-4MC"/>
+                        <outlet property="messageTextField" destination="O9o-5u-4qE" id="UZC-Fg-fHx"/>
+                        <outlet property="sendBtn" destination="ZZ3-1x-3R0" id="fkE-0V-Scq"/>
+                        <outlet property="sendBtnView" destination="loX-Sa-7s1" id="pL6-dQ-Y9h"/>
+                        <outlet property="tableView" destination="Ycy-Mo-dWX" id="wwC-by-fhW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QZ-X4-68X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="1074.5127436281859"/>
         </scene>
         <!--Create GroupsVC-->
         <scene sceneID="IoE-Am-qCE">
@@ -882,6 +1048,7 @@
     </scenes>
     <resources>
         <image name="addNewIcon" width="19" height="19"/>
+        <image name="backIcon" width="12" height="22"/>
         <image name="close" width="21" height="20"/>
         <image name="compose" width="21" height="24"/>
         <image name="defaultProfileImage" width="102" height="102"/>
