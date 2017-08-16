@@ -69,7 +69,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+       dismissDetail()
     }
     
     
@@ -79,6 +79,10 @@ class GroupFeedVC: UIViewController {
 
 
 extension GroupFeedVC: UITableViewDelegate, UITableViewDataSource {
+    
+    
+    
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -95,6 +99,9 @@ extension GroupFeedVC: UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
+    
+    
+    
 }
 
 

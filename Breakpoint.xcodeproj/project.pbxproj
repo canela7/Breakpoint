@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9AFDF020CF7E59D6AC957A70 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44848667F6A3B9350F03223A /* Pods_Breakpoint.framework */; };
+		DA1B3BA71F44D72C007F0EDC /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B3BA61F44D72C007F0EDC /* UIViewControllerExt.swift */; };
 		DA4FA92F1F37B2100092DEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA92E1F37B2100092DEFA /* AppDelegate.swift */; };
 		DA4FA9311F37B2100092DEFA /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9301F37B2100092DEFA /* FeedVC.swift */; };
 		DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FA9321F37B2100092DEFA /* GroupsVC.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		44848667F6A3B9350F03223A /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2670CF05788DE0587E5F9C7 /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1B3BA61F44D72C007F0EDC /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		DA4FA92B1F37B2100092DEFA /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4FA92E1F37B2100092DEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4FA9301F37B2100092DEFA /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				DAEE62391F3AC5AD00A289A8 /* UIViewExt.swift */,
+				DA1B3BA61F44D72C007F0EDC /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				DA4FA94F1F3839FE0092DEFA /* InsertTextField.swift in Sources */,
 				DA9418341F3E9092009CCDAF /* GroupCell.swift in Sources */,
 				DA4FA94B1F38396E0092DEFA /* AuthVC.swift in Sources */,
+				DA1B3BA71F44D72C007F0EDC /* UIViewControllerExt.swift in Sources */,
 				DA4FA9331F37B2100092DEFA /* GroupsVC.swift in Sources */,
 				DA94183A1F42749D009CCDAF /* GroupFeedVC.swift in Sources */,
 				DA9418381F4273DD009CCDAF /* GroupFeedCell.swift in Sources */,
