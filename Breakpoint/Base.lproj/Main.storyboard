@@ -522,7 +522,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ycy-Mo-dWX">
-                                <rect key="frame" x="0.0" y="103" width="375" height="564"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="kOe-tp-Shm" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
@@ -578,12 +578,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com,  brian canela d ma da" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="p8q-9S-ids">
-                                <rect key="frame" x="20" y="78" width="335" height="16.5"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
-                                <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loX-Sa-7s1">
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <subviews>
@@ -618,6 +612,12 @@
                                     <constraint firstItem="ZZ3-1x-3R0" firstAttribute="leading" secondItem="O9o-5u-4qE" secondAttribute="trailing" constant="8" id="xzM-SN-6Q3"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com,  brian canela d ma da" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="p8q-9S-ids">
+                                <rect key="frame" x="20" y="78" width="335" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <color key="textColor" red="0.56198018790000004" green="0.81034952400000004" blue="0.30470007659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
@@ -626,13 +626,13 @@
                             <constraint firstItem="Ycy-Mo-dWX" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="7hm-JK-3jY"/>
                             <constraint firstItem="f01-XH-CjO" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="Bf8-gd-dJK"/>
                             <constraint firstItem="loX-Sa-7s1" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="GyH-2d-8Ua"/>
+                            <constraint firstItem="loX-Sa-7s1" firstAttribute="top" secondItem="Ycy-Mo-dWX" secondAttribute="bottom" id="How-1N-guZ"/>
                             <constraint firstItem="Ycy-Mo-dWX" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="JXQ-ku-UG2"/>
                             <constraint firstItem="loX-Sa-7s1" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" id="PVD-sm-lMb"/>
                             <constraint firstItem="f01-XH-CjO" firstAttribute="trailing" secondItem="1jM-aJ-ed3" secondAttribute="trailing" id="Tyf-pZ-4xL"/>
                             <constraint firstItem="p8q-9S-ids" firstAttribute="leading" secondItem="1jM-aJ-ed3" secondAttribute="leading" constant="20" id="Wrj-4k-YSI"/>
                             <constraint firstItem="p8q-9S-ids" firstAttribute="top" secondItem="f01-XH-CjO" secondAttribute="bottom" constant="8" id="Xcq-U8-bob"/>
                             <constraint firstItem="1jM-aJ-ed3" firstAttribute="trailing" secondItem="p8q-9S-ids" secondAttribute="trailing" constant="20" id="Ys9-nA-ePj"/>
-                            <constraint firstItem="1jM-aJ-ed3" firstAttribute="bottom" secondItem="Ycy-Mo-dWX" secondAttribute="bottom" id="hit-4f-pH5"/>
                             <constraint firstItem="f01-XH-CjO" firstAttribute="top" secondItem="WHl-mK-VEw" secondAttribute="top" id="r1L-y0-mJd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1jM-aJ-ed3"/>
